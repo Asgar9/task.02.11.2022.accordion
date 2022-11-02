@@ -1,0 +1,13 @@
+.content{
+    position: relative;
+    background: white;
+    height:0px;
+    text-align: justify;
+    width: 1116px;
+    overflow: hidden;
+    transition: 0.5s;
+    border: solid 1px;
+}
+.active .content{
+  height: 60px;
+}

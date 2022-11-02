@@ -1,0 +1,32 @@
+.accordion {
+  margin-top: 10%;
+}
+
+.button {
+  padding: 20px;
+  background-color: gray;
+  border: solid 1px gray;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: black;
+  color: white;
+}
+.button h4 {
+  color: white;
+}
+
+.content {
+  position: relative;
+  background: white;
+  height: 0px;
+  text-align: justify;
+  width: 1116px;
+  overflow: hidden;
+  transition: 0.5s;
+  border: solid 1px;
+}
+
+.active .content {
+  height: 60px;
+}
